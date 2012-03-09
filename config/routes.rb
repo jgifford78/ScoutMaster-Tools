@@ -1,4 +1,10 @@
 ScoutMasterTools::Application.routes.draw do
+  resources :users
+
+  resources :equipment
+
+  resources :equipment_categories
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
