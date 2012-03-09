@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  type: 
+  number: 1
+  group: 1
+  sponsor_name: MyString
+  city: MyString
+  state: MyString
+
+two:
+  type: 
+  number: 1
+  group: 1
+  sponsor_name: MyString
+  city: MyString
+  state: MyString

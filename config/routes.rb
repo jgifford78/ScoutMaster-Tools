@@ -1,4 +1,6 @@
 ScoutMasterTools::Application.routes.draw do
+  resources :units
+
   resources :users
 
   resources :equipment
