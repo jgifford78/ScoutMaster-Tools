@@ -1,7 +1,7 @@
 class CreateUnits < ActiveRecord::Migration
   def change
     create_table :units do |t|
-      t.string :type
+      t.string :scout_type
       t.integer :number
       t.integer :group
       t.string :sponsor_name

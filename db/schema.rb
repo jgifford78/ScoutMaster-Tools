@@ -28,7 +28,7 @@ ActiveRecord::Schema.define(:version => 20120309042938) do
   end
 
   create_table "units", :force => true do |t|
-    t.string   "type"
+    t.string   "scout_type"
     t.integer  "number"
     t.integer  "group"
     t.string   "sponsor_name"
