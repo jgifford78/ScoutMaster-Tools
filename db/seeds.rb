@@ -6,6 +6,6 @@
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
 
-categories = EquipmentCategory.create([{ category: 'Bowls' }, { category: 'Utensils' }, { category: 'Stoves' }, { category: 'Dutch Ovens' }, { category: 'Pots' }, { category: 'Pans' }, { category: 'Lanterns' }, { category: 'Firebarrel' }, { category: 'Tents' }, {category: 'Cleaning Supplies' }, { category: 'Disposable Cooking Supplies' }, { category: 'Storage Containers' }, { category: 'Utilities' }, { category: 'Coolers' }, { category: 'Flags' }])
+categories = EquipmentCategory.create([{ category: 'Mixing Bowls' }, { category: 'Utensils' }, { category: 'Stoves' }, { category: 'Dutch Ovens' }, { category: 'Pots' }, { category: 'Pans' }, { category: 'Lanterns' }, { category: 'Firebarrel' }, { category: 'Tents' }, {category: 'Cleaning Supplies' }, { category: 'Disposable Cooking Supplies' }, { category: 'Storage Containers' }, { category: 'Utilities' }, { category: 'Coolers' }, { category: 'Flags' }])
 
 Unit.create(:scout_type => 'Scouts', :number => 596, :group => 70520, :sponsor_name => 'LDS Windsor Stake 3rd Ward', :city => 'Orem', :state => 'Utah')
